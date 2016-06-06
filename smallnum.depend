@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1465171259 source:/home/hazem/Project/smallnum/main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	</home/hazem/Project/smallnum/mathext.h>
+
+1465171163 source:/home/hazem/Project/smallnum/mathext.c
+
