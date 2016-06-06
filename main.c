@@ -1,3 +1,8 @@
+/**
+ * This an implementation of Karatsuba Algorithm to multiply two n-digits numbers 
+ * https://en.wikipedia.org/wiki/Karatsuba_algorithm
+ * (C) 2016 Hazem Nomer. 
+ **/
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -8,7 +13,7 @@ long KaratsubaAlg(long x, long y)
     int m=0;
     if(x>=y)
     {
-     m=numDigits(y)-1;
+     m=numDigits(y)-1; 
     }
     else
     {
